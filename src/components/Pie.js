@@ -30,7 +30,7 @@ export default class Pie extends Component {
     render() {
         return (
             <div>
-                <GeoChart data={this.state.results} />
+                <GeoChart data={this.state.results} title={"HeatMap(Total Sales)"} />
             </div>
         )
     }
