@@ -36,7 +36,7 @@ export default class BarGraphSales extends Component {
                 type: "column"
             },
             title: {
-                text: "Top 20 products sold(all locations)"
+                text: "Top 10 products sold(all locations)"
             },
             xAxis: {
                 // categories: this.state.results.map(d => d.name),
