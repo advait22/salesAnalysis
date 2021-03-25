@@ -29,9 +29,8 @@ export default class Heatmap extends Component {
     }
     render() {
         return (
-            <div>
-                <GeoChart data={this.state.results} title={"HeatMap(Total Sales)"} />
-            </div>
+            <GeoChart data={this.state.results} title={"Products sold in November"} width='48%' />
+
         )
     }
 }

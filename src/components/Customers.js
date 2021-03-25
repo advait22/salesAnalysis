@@ -31,9 +31,9 @@ export default class Customers extends Component {
     }
     render() {
         return (
-            <div>
-                <ScatterChart data={this.state.results} xtitle="Month" ytitle="Total Polpulation" />
-            </div >
+
+            <ScatterChart data={this.state.results} xtitle="Month" ytitle="Total Polpulation" width='50%' title="New Customers" />
+
         )
     }
 }

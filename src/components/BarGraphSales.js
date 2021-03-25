@@ -57,9 +57,8 @@ export default class BarGraphSales extends Component {
             series: this.state.results
         };
         return (
-            <div>
-                <ColumnChart highcharts={Highcharts} options={options} />
-            </div>
+            <ColumnChart highcharts={Highcharts} options={options} containerProps={{ style: { width: '48%' } }} />
+
         )
     }
 }

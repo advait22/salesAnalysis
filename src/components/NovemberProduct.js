@@ -30,9 +30,9 @@ export default class NovemberProduct extends Component {
     }
     render() {
         return (
-            <div>
-                <ColumnChart data={this.state.results} title={"Products sold in November"} xtitle={"Products"} ytitle={"Total Sale"} />
-            </div>
+
+            <ColumnChart data={this.state.results} title={"Products sold in November"} xtitle={"Products"} ytitle={"Total Sale"} width='48%' />
+
         )
     }
 }

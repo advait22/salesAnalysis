@@ -8,14 +8,16 @@ import UKSales from './components/UKSales';
 
 function App() {
   return (
-    <div >
-      <div><Heatmap /></div>
-      <div><BarGraphSales /></div>
-      <div><UKSales /></div>
-      <div><Customers /></div>
-      <div><Sales /></div>
-      <div><NovemberProduct /></div>
-    </div>
+    <>
+      <div className="main-container">
+        <Heatmap />
+        <BarGraphSales />
+        <UKSales />
+        <Customers />
+        <Sales />
+        <NovemberProduct />
+      </div>
+    </>
   );
 }
 

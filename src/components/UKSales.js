@@ -78,9 +78,11 @@ export default class UKSales extends Component {
             series: this.state.results
         };
         return (
-            <div>
-                <BarChart highcharts={Highcharts} options={options} />
-            </div>
+
+            <BarChart highcharts={Highcharts} options={options}
+                containerProps={{ style: { width: '48%' } }}
+            />
+
         )
     }
 }

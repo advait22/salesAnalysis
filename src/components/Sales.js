@@ -90,12 +90,13 @@ export default class Sales extends Component {
 
         };
         return (
-            <div>
-                <HighchartsReact
-                    highcharts={Highcharts}
-                    options={options}
-                />
-            </div>
+
+            <HighchartsReact
+                containerProps={{ style: { width: '48%' } }}
+                highcharts={Highcharts}
+                options={options}
+            />
+
         )
     }
 }
