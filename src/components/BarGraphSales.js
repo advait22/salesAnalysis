@@ -39,7 +39,7 @@ export default class BarGraphSales extends Component {
                 text: "Top 20 products sold(all locations)"
             },
             xAxis: {
-                categories: this.state.results.map(d => d.name),
+                // categories: this.state.results.map(d => d.name),
                 crosshair: true
             },
             yAxis: {
@@ -47,10 +47,24 @@ export default class BarGraphSales extends Component {
                 title: {
                     text: '# Products Sold in UK'
                 }
+            }, legend: {
+                layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'top',
+                x: 0,
+                y: 30,
+                floating: false,
+                borderWidth: 1,
+                backgroundColor:
+                    Highcharts.defaultOptions.legend.backgroundColor || '#FFFFFF',
+                shadow: false
+            },
+            credits: {
+                enabled: false
             },
             plotOptions: {
                 column: {
-                    pointPadding: 0.2,
+                    pointPadding: 0.1,
                     borderWidth: 0
                 }
             },

@@ -64,13 +64,13 @@ export default class UKSales extends Component {
                 layout: 'vertical',
                 align: 'right',
                 verticalAlign: 'top',
-                x: -40,
-                y: 80,
+                x: 0,
+                y: 30,
                 floating: false,
                 borderWidth: 1,
                 backgroundColor:
                     Highcharts.defaultOptions.legend.backgroundColor || '#FFFFFF',
-                shadow: true
+                shadow: false
             },
             credits: {
                 enabled: false
