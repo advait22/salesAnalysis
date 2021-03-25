@@ -5,7 +5,7 @@ import 'chart.js'
 
 import React, { Component } from 'react'
 
-export default class Pie extends Component {
+export default class Heatmap extends Component {
     constructor (props) {
         super(props)
         this.state = {
